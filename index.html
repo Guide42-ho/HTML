@@ -1,116 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="Css/styles.css">
 </head>
 <body>
 
+<header>
+    <h1>My Profile</h1>
+</header>
 
-  <div class="container">
+<nav>
+    <div class="toggle">☰</div>
+    <div class="nav-links">
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#employment">Employment</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-
-    <!-- Header Section -->
-    <header>
-      <img class="profile_img" src="img/S__2162700.jpg" alt="profile">
-      <div class="text_profile">
+<div class="container">
+    <section id="about">
+        <img src="img/S__2162700.jpg" alt="Profile Picture" class="circle-image">
         <h1>Soravit Hoisang</h1>
-        <p>Web Developer | Full-Stack | Back-End</p>
-        <p>Email: soravithoisang@gmail.com | Phone: (+66)97-3434-593</p>
-        <p>University: Panyapiwat Institute of Management</p>
-        <p>Branch: Engineering and technology</p>
-      </div>
-    </header>
-
-
-    <!-- About Me Section -->
-    <section class="about">
-      <h2>About Me</h2>
-      <p>I aim to collaborate with experienced developers, learn best practices in coding and software architecture, and gain exposure to agile development methodologies. I am particularly interested in understanding the full lifecycle of software development, from concept to deployment, and in becoming proficient in Full Stack development. My goal is to continuously enhance my skills and contribute meaningfully to impactful projects.</p>
+        <p><em>Faculty: Engineering And Technology</em></p>
+        <p>Major: Faculty of Engineering and Technology Majoring in Computer Engineering and Artificial Intelligence</p>
+        <p>University: <a href="http://pim.ac.th" target="_blank">http://pim.ac.th</a></p>
+        <p>I aim to collaborate with experienced developers, learn best practices in coding and software architecture, and gain exposure to agile development methodologies. I am particularly interested in understanding the full lifecycle of software development, from concept to deployment, and in becoming proficient in Full Stack development. My goal is to continuously enhance my skills and contribute meaningfully to impactful projects.</p>
     </section>
+    
+    
+</div>
+<div class="container">
 
-
-    <!-- Skills Section -->
-    <section class="skills">
-      <h2>Skills</h2>
-      <table class="table_skills">
-        <tr>
-          <th>SKILL</th>
-          <th>EXPERTISE</th>
-          <th>SYMBOL</th>
-          <th>TOOLS</th>
-        </tr>
-        <tbody>
-          <tr>
-            <td>HTML5</td>
-            <td>Beginner</td>
-            <td><img class="HTML5" src="img/HTML.png" alt="HTML5"></td>
-            <td>Visual Studio Code</td>
-          </tr>
-          <tr>
-            <td>CSS3</td>
-            <td>Beginner</td>
-            <td><img class="CSS3" src="img/CSS3.png" alt="CSS3"></td>
-            <td>Visual Studio Code</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>Beginner</td>
-            <td><img class="JavaScript" src="img/JavaScript.png" alt="JavaScript"></td>
-            <td>Visual Studio Code</td>
-          </tr>
-          <tr>
-            <td>JAVA</td>
-            <td>Beginner</td>
-            <td><img class="JAVA" src="img/java.png" alt="JAVA"></td>
-            <td><p>Visual Studio Code</p><p>Apache NetBeans 22</p></td>
-          </tr>
-          <tr>
-            <td>C#</td>
-            <td>Beginner</td>
-            <td><img class="CS" src="img/CS.png" alt="C#"></td>
-            <td>Visual Studio</td>
-          </tr>
-        </tbody>
-      </table>
+    <section id="education">
+        <h2>Education</h2>
+        <p>2023 - Present</p>
+        <h3>GPAX : 3.83</h3>
+      <hr>
+        <h2>Projects</h2>
+        <h3>Machine Learning Approach</h3>
+        <h3>Predicting Diabetes Using K-Nearest Neighbors</h3>
+        <p>This project utilizes Machine Learning techniques with the K-Nearest Neighbors (KNN) algorithm to predict the risk of diabetes. It analyzes medical data such as blood sugar levels and blood pressure to assist in the screening and prevention of diabetes effectively.</p>
     </section>
-
-
-    <!-- Experience Section -->
-    <section class="experience">
-      <h2>Experience</h2>
-      <div class="job">
-        <h3>Cashier | C.P. ALL PUBLIC COMPANY LIMITED</h3>
-        <p>Mar 2024 - May 2024</p>
-        <ul>
-          <li>Process payments and maintain cleanliness and order of the counter and equipment.</li>
-          <li>Provide customer service to ensure high satisfaction and assist with additional tasks as assigned.</li>
-        </ul>
-      </div>
-
-
-    <!-- Education Section -->
-    <section class="education">
-      <h2>Education</h2>
-      <div class="university">
-        <h3>Panyapiwat Institute of Management</h3>
-        <p>2023 – Present</p>
-        <ul>
-          <li>Major : Faculty of Engineering and Technology Majoring in Computer Engineering and Artificial Intelligence</li>
-        </ul>
-      </div>
+    <hr>
+    <section id="employment">
+        <h2>Employment History</h2>
+        <div class="job">
+          <h3>Cashier | C.P. ALL PUBLIC COMPANY LIMITED</h3>
+          <p>Mar 2024 - May 2024</p>
+          <ul>
+            <li>Process payments and maintain cleanliness and order of the counter and equipment.</li>
+            <li>Provide customer service to ensure high satisfaction and assist with additional tasks as assigned.</li>
+          </ul>
+        </div>
     </section>
+    <hr>
+    <section id="skills">
+        <table class="table_skills">
+          <tr>
+            <th>SKILL</th>
+            <th>EXPERTISE</th>
+            <th>SYMBOL</th>
+            <th>TOOLS</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>HTML5</td>
+              <td>Beginner</td>
+              <td><img class="HTML5" src="img/4_2048px-HTML5_logo_and_wordmark.svg.png" alt="HTML5"></td>
+              <td>Visual Studio Code</td>
+            </tr>
+            <tr>
+              <td>CSS3</td>
+              <td>Beginner</td>
+              <td><img class="CSS3" src="img/CSS3_logo_and_wordmark.svg.png" alt="CSS3"></td>
+              <td>Visual Studio Code</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Beginner</td>
+              <td><img class="JavaScript" src="img/JavaScript.png" alt="JavaScript"></td>
+              <td>Visual Studio Code</td>
+            </tr>
+            <tr>
+              <td>JAVA</td>
+              <td>Beginner</td>
+              <td><img class="JAVA" src="img/java.png" alt="JAVA"></td>
+              <td><p>Visual Studio Code</p><p>Apache NetBeans 22</p></td>
+            </tr>
+            <tr>
+              <td>C#</td>
+              <td>Beginner</td>
+              <td><img class="CS" src="img/CS.png" alt="C#"></td>
+              <td>Visual Studio</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+ 
+</div>
+<div class="container">
+  <section id="contact">
+    <h2>Contact</h2>
+    <ol>
+        <li>อีเมล์: <span class="email">soravithoisang<img src="img/png-clipart-arroba-symbol-at-sign-ampersand-symbol-miscellaneous-text-thumbnail.png" alt="@" />example.com</span></li>
+        <li>เบอร์โทรศัพท์: +6697-3434-593</li>
+        <li>ที่อยู่: Lumpini Ville Chaengwattana - Pak Kret Station, House No. 8/166, Soi 17, Moo 4, Pak Kret Subdistrict, Pak Kret District, Nonthaburi 11120, Thailand</li>
+        <li>ช่องทางอื่น ๆ เช่น Guide42-ho, Facebook: S'Guide Soravit</li>
+    </ol>
+</section>
+</div>
+<footer>
+    &copy; 2024 My Profile
+</footer>
 
-
-
-    <!-- Footer Section -->
-    <footer>
-      <p>Connect with me on | <a href="https://github.com/Guide42-ho" target="_blank">github</a></p>
-    </footer>
-  </div>
-
+<script src="Js/script.js"></script>
 
 </body>
 </html>
